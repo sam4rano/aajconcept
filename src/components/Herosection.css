@@ -1,0 +1,53 @@
+.showcase::before,
+.showcase::after {
+  content: '';
+  position: absolute;
+  height: 200px;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+/* Mobile screens */
+@media (min-width: 360px) and (max-width: 799px) {
+  .showcase::before,
+  .showcase::after {
+    height: 100px; /* Adjust height for mobile */
+    top: 420px; /* Adjust bottom position for mobile */
+    transform: skewY(-6deg); /* Adjust skew for mobile */
+    -webkit-transform: skewY(-6deg);
+    -moz-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+  }
+}
+
+/* Tablet screens */
+@media (min-width: 800px) and (max-width: 1023px) {
+  .showcase::before,
+  .showcase::after {
+    height: 100px; /* Adjust height for tablet */
+    top: 450px; /* Adjust bottom position for tablet */
+    transform: skewY(-2.5deg); /* Adjust skew for tablet */
+    -webkit-transform: skewY(-2.5deg);
+    -moz-transform: skewY(-2.5deg);
+    -ms-transform: skewY(-2.5deg);
+  }
+}
+
+/* Larger screens (default) */
+@media (min-width: 1024px) {
+  .showcase::before,
+  .showcase::after {
+    height: 100px;
+    top: 430px;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+  }
+}
