@@ -44,9 +44,6 @@ const Herosection = () => {
       style={style}
     >
       <div className="h-[31rem] w-1/2 flex flex-col px-4 justify-center align-middle items-center relative sm:w-full gap-4">
-        {/* <div className="sm:hidden absolute h-80 w-80 z-10 border-8 border-gray-300 rounded-full"></div>
-        <div className="sm:hidden absolute top-10 h-80 w-80 z-10 border-8 border-green-400 rounded-full"></div>
-        <div className="sm:hidden absolute top-40 h-80 w-80 z-20 border-8 border-orange-300 rounded-full"></div> */}
 
         <div className="text-5xl sm:text-4xl font-bold z-30 sm:text-center text-black pb-4 font-nunito">
           Get a quick loan 
@@ -66,13 +63,7 @@ const Herosection = () => {
           </button>
         </div>
       </div>
-      {/* <div className="bg-gradient-to-r from-[#1b374b] to-[#898b95] h-[31rem] w-1/2 flex justify-center align-middle items-center pt-14 relative sm:w-full">
-        <img
-          src={img_transfer}
-          alt="transfer_money"
-          className="h-[28rem] rounded-lg shadow-md"
-        />
-      </div> */}
+     
       <p className=" sm:hidden absolute z-50 left-[60%] top-1/4 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 bg-green-600 text-white rounded-[20px] font-nunito">
         <motion.div
           className="text-xl sm:text-base font-bold text-white"

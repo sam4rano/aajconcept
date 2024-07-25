@@ -42,7 +42,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="mx-auto w-full p-4 bg-white">
+    <div className="mx-auto w-full bg-white">
       <h1 className="text-2xl lg:text-4xl font-bold mb-4 text-center text-black p-4 font-nunito">
         FAQ
       </h1>

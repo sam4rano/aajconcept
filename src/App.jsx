@@ -8,8 +8,6 @@ import {
 import Home from "./pages/Home";
 import ErrorPage from "./ErrorPage";
 import Layout from "./Layout";
-import InfoPage from "./pages/InfoPage";
-import InfoForm from "./components/InfoForm";
 import BoardContainer from "./components/BoardContainer";
 import BoardMembers from "./components/BoardMenbers";
 import HistoryContainer from "./components/HistoryContainer";
@@ -26,9 +24,6 @@ const App = () => {
       <>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
-        </Route>
-        <Route element={<InfoPage />}>
-          <Route path="vision" element={<InfoForm />} />
         </Route>
         <Route element={<BoardContainer />}>
           <Route path="team" element={<BoardMembers />} />
