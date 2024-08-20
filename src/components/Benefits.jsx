@@ -100,7 +100,7 @@ const itemVariants = {
 const Benefits = () => {
   return (
     <div className="bg-gray-200 py-20">
-      <h1 className="text-center text-3xl pb-10 text-slate-600 font-bold font-nunito">
+      <h1 className="text-center text-3xl sm:text-2xl sm:px-4 pb-10 text-slate-600 font-bold font-nunito">
         BENEFITS OF APPLYING FOR A LOAN
       </h1>
       <div className="max-w-6xl mx-auto px-4">
