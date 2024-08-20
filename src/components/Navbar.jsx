@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
-import logo from "../../src/assets/aajimg.png";
+import logo from "../../src/assets/logonw.png";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -35,12 +35,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative px-[40px] w-full">
+    <div className="relative px-4 w-full mb-20 bg-white">
       <div
-        className={`flex items-center justify-between px-[40px] py-2 fixed top-0 left-0 right-0 z-50 transition-colors duration-300 `}
+        className={`flex items-center justify-between px-4 pb-4 fixed top-0 left-0 right-0 z-50 transition-colors duration-300 `}
       >
-        <Link to="/" className="flex items-center space-x-2" alt="AAJ Investment">
-          <img src={logo} alt="logo" className="w-10 h-10" />
+        <Link to="/" className="flex items-center" alt="AAJ Investment">
+          <img src={logo} alt="logo" className="w-[80px] h-[80px]" />
         </Link>
         <div className="lg:hidden md:hidden">
           {navbar ? (
@@ -58,7 +58,7 @@ const Navbar = () => {
           )}
         </div>
         <ul className={`hidden md:flex lg:flex space-x-4 py-[10px] px-[20px] rounded-bl-xl rounded-tr-xl ${
-          scrolled ? "bg-green-600 text-white" : "bg-transparent text-white"
+          scrolled ? "text-white" : "bg-transparent text-white"
         }`}>
           {navData.map((data) => (
             <li key={data.id} className="text-xl sm:text-lg">
@@ -79,9 +79,9 @@ const Navbar = () => {
       <div
         className={`lg:hidden md:hidden fixed top-0 left-0 w-full h-full z-40 transition-transform duration-300 ${
           navbar ? "translate-x-0" : "-translate-x-full"
-        } bg-green-600 opacity-95`}
+        } bg-green-600 opacity-1`}
       >
-        <ul className="flex flex-col items-center justify-center space-y-4 mt-8 fixed overflow-hidden w-full">
+        <ul className="flex flex-col items-center justify-center space-y-4 mt-20 fixed overflow-hidden w-full">
           {navData.map((data) => (
             <li key={data.id} className="text-white text-xl sm:text-lg flex  flex-col align-middle justify-center items-center">
               <NavLink

@@ -1,4 +1,5 @@
 import about_img from "../../src/assets/artboard.jpg";
+import about from "../assets/logo.jpeg"
 import mony from "../assets/moneyyy_bg.png";
 
 const About = () => {
@@ -11,17 +12,17 @@ const About = () => {
     height: "500px",
   };
   return (
-    <section className="bg-white py-10 md:px-2 mt-4">
-      <div className="" style={style}></div>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between py-4">
+    <section className="bg-slate-100 py-20 sm:py-10 md:px-2 mt-4">
+      {/* <div className="" style={style}></div> */}
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-36 sm:px-4">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0 ">
           <img
-            src={about_img}
+            src={about}
             alt="About Us"
-            className="w-full h-[32rem] object-cover rounded-lg shadow-lg"
+            className="w-full h-[32rem] sm:h-60 object-cover rounded-lg shadow-lg"
           />
         </div>
-        <div className="w-full lg:w-1/2 lg:pl-16">
+        <div className="w-full lg:w-1/2 lg:pl-16 p-4" >
           <h2 className="text-4xl md:text-2xl font-bold text-gray-800 mb-6 sm:text-2xl sm:text-center">
             A.A.J Lag Multipurpose Nigeria Limited
           </h2>
@@ -39,8 +40,8 @@ const About = () => {
             shares, we prioritize the satisfaction and success of our clients
             and stakeholders.
           </p>
-          <p className="text-green-500 font-bold font-nunito py-5 text-2xl">
-            REG.NO: 7146308
+          <p className="text-teal-500 sm:text-center font-bold font-nunito py-5 text-xl">
+            FULLY REGISTERED UNDER CAC: 7146308
           </p>
         </div>
       </div>

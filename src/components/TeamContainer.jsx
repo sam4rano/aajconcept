@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import ContactUs from "./ContactUs";
 
 
-const BoardContainer = () => {
+const TeamContainer = () => {
   return (
     <div className="">
       <Navbar />
@@ -16,4 +16,4 @@ const BoardContainer = () => {
   );
 };
 
-export default BoardContainer;
+export default TeamContainer;

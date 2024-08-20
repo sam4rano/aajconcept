@@ -52,7 +52,7 @@ const RulesAndRegulations = () => {
   };
 
   return (
-    <div className="p-6 text-gray-800">
+    <div className="p-6 text-gray-800 bg-white py-20">
       <div className="max-w-4xl mx-auto bg-white p-4">
         <h1 className="text-2xl font-bold mb-4 font-nunito text-center" >RULES AND REGULATIONS</h1>
         <div className="space-y-4">

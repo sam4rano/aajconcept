@@ -8,12 +8,13 @@ import {
 import Home from "./pages/Home";
 import ErrorPage from "./ErrorPage";
 import Layout from "./Layout";
-import BoardContainer from "./components/BoardContainer";
-import BoardMembers from "./components/BoardMenbers";
-import HistoryContainer from "./components/HistoryContainer";
-import History from "./components/History";
+import TeamContainer from "./components/TeamContainer";
+import TeamMembers from "./components/TeamMembers";
 import AboutLayout from "./components/AboutLayout";
 import About from "./components/About";
+import ServicePage from "./components/ServicePage";
+import Service from "./components/Service";
+
 
 
 
@@ -25,11 +26,11 @@ const App = () => {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
         </Route>
-        <Route element={<BoardContainer />}>
-          <Route path="team" element={<BoardMembers />} />
+        <Route element={<TeamContainer />}>
+          <Route path="team" element={<TeamMembers />} />
         </Route>
-        <Route element={<HistoryContainer />}>
-          <Route path="services" element={<History />} />
+        <Route element={<ServicePage />}>
+          <Route path="services" element={<Service />} />
         </Route>
         <Route element={<AboutLayout />} > 
         <Route path="about" element={<About />} />

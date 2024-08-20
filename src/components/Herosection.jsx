@@ -40,7 +40,7 @@ const Herosection = () => {
 
   return (
     <div
-      className="relative flex flex-row w-full justify-between sm:flex-col sm:justify-center sm:align-middle sm:items-center sm:w-full"
+      className="relative flex flex-row w-full justify-between sm:flex-col sm:justify-center before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-40 sm:align-middle sm:items-center sm:w-full py-10"
       style={style}
     >
       <div className="h-[31rem] w-1/2 flex flex-col px-4 justify-center align-middle items-center relative sm:w-full gap-4">
@@ -58,7 +58,7 @@ const Herosection = () => {
           <button className="flex flex-row justify-center align-middle items-center bg-orange-500 text-white text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:bg-orange-400 hover:scale-105 font-nunito">
             Apply Now
           </button>
-          <button className="flex flex-row justify-center align-middle items-center border-orange-500 border-2 text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:scale-105 text-white font-nunito">
+          <button className="flex flex-row justify-center align-middle items-center border-orange-500 border-2 text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:scale-105 text-orange-400 font-nunito">
             Learn more
           </button>
         </div>

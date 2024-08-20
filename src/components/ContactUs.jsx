@@ -49,9 +49,9 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 lg:flex-row justify-between items-start bg-white p-8 ">
+    <div className="flex flex-col gap-4 lg:flex-row justify-between items-start bg-white py-8 px-36 sm:px-4">
       <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-        <h2 className="text-3xl sm:text-2xl font-bold mb-4 font-nunito">
+        <h2 className="text-3xl sm:text-2xl font-bold mb-4 sm:text-center font-nunito">
           Keep In Touch With Us
         </h2>
         <form className="space-y-4" onSubmit={sendEmail}>
