@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative px-4 w-full mb-20 bg-white">
+    <div className="relative px-4 w-full mb-20 !bg-white">
       <div
         className={`flex items-center justify-between px-4 pb-4 fixed top-0 left-0 right-0 z-50 transition-colors duration-300 `}
       >
