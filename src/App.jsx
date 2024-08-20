@@ -12,8 +12,8 @@ import TeamContainer from "./components/TeamContainer";
 import TeamMembers from "./components/TeamMembers";
 import AboutLayout from "./components/AboutLayout";
 import About from "./components/About";
-import ServicePage from "./components/ServicePage";
-import Service from "./components/Service";
+// import ServicePage from "./components/ServicePage";
+// import Service from "./components/Service";
 
 
 
@@ -29,9 +29,9 @@ const App = () => {
         <Route element={<TeamContainer />}>
           <Route path="team" element={<TeamMembers />} />
         </Route>
-        <Route element={<ServicePage />}>
+        {/* <Route element={<ServicePage />}>
           <Route path="services" element={<Service />} />
-        </Route>
+        </Route> */}
         <Route element={<AboutLayout />} > 
         <Route path="about" element={<About />} />
         </Route>

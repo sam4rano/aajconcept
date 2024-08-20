@@ -21,9 +21,9 @@ const Service = () => {
  
 
   return (
-    <section className="py-10 sm:py-5 px-4 md:px-8 bg-slate-100">
+    <section className="pt-10 sm:py-10 px-4 md:px-8 bg-slate-100">
       <div className="container mx-auto text-center px-4 w-full py-2">
-        <h2 className="text-3xl sm:text-2xl sm:mb-4 font-bold mb-8 font-nunito text-orange-400 py-10">Our Services</h2>
+        <h2 className="text-3xl sm:mb-4 font-bold mb-4 font-nunito text-orange-400 pb-5">Our Services also includes</h2>
         <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 gap-8">
           {services.map(service => (
             <motion.div

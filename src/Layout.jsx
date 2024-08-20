@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import Rules from "./components/Rules";
 import Testimonials from "./components/Testimonials";
+import Service from "./components/Service";
+import BackToTopButton from "./utils/BackToTopButton";
 
 const Layout = () => {
   return (
@@ -12,10 +14,11 @@ const Layout = () => {
 
       <Benefits />
       <Rules />
-
+      <Service />
       <Testimonials />
       <ContactUs />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };

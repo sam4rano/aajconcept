@@ -32,9 +32,9 @@ const TeamMembers = () => {
     },
   ];
   return (
-    <div className="bg-slate-200 mt-20 py-10">
+    <div className="bg-slate-200 py-20">
       <div className="text-center pb-4 ">
-        <h1 className="text-4xl sm:text-2xl font-bold text-orange-400">
+        <h1 className="text-4xl sm:text-2xl py-5 font-bold text-orange-400">
           Meet the Team
         </h1>
       </div>

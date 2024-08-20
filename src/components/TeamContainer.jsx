@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
+import BackToTopButton from "../utils/BackToTopButton";
 
 
 const TeamContainer = () => {
@@ -12,6 +13,7 @@ const TeamContainer = () => {
       <Outlet className="" />
       <ContactUs />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import "./Herosection.css";
 import { motion } from "framer-motion";
 
-import moneyy from "../assets/money_bg.png"
+import moneyy from "../assets/money_bg.png";
 
 const Herosection = () => {
   const text = " Seamless Loan !!";
@@ -28,7 +28,6 @@ const Herosection = () => {
     },
   };
 
-
   const style = {
     backgroundImage: `url(${moneyy})`,
     backgroundSize: "cover",
@@ -44,26 +43,35 @@ const Herosection = () => {
       style={style}
     >
       <div className="h-[31rem] w-1/2 flex flex-col px-4 justify-center align-middle items-center relative sm:w-full gap-4">
-
         <div className="text-5xl sm:text-4xl font-bold z-30 sm:text-center text-black pb-4 font-nunito">
-          Get a quick loan 
+          Get a quick loan
           <span className=" font-bold px-4  rounded-bl-xl rounded-tr-xl border-2 border-orange-400 ">
             with us
           </span>
         </div>
         <p className="text-3xl sm:text-2xl z-30 font-nunito text-white sm:text-center font-bold">
-         We offer the best loan with the <span className="text-green-500">best rate.</span>
+          We offer the best loan with the{" "}
+          <span className="text-green-500">best rate.</span>
         </p>
         <div className="flex flex-row justify-center gap-4 z-40">
-          <button className="flex flex-row justify-center align-middle items-center bg-orange-500 text-white text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:bg-orange-400 hover:scale-105 font-nunito">
-            Apply Now
-          </button>
-          <button className="flex flex-row justify-center align-middle items-center border-orange-500 border-2 text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:scale-105 text-orange-400 font-nunito">
+         
+          <a
+            href="https://wa.me/2349036250716"
+            className="flex flex-row justify-center align-middle items-center bg-orange-500 text-white text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:bg-orange-400 hover:scale-105 font-nunito"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Call Now
+          </a>
+          <a
+            href="tel:+2349036250716"
+            className="flex flex-row justify-center align-middle items-center border-orange-500 border-2 text-xl sm:text-lg font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out transform hover:scale-105 text-orange-400 font-nunito"
+          >
             Learn more
-          </button>
+          </a>
         </div>
       </div>
-     
+
       <p className=" sm:hidden absolute z-50 left-[60%] top-1/4 transform -translate-x-1/2 -translate-y-1/2 text-center p-4 bg-green-600 text-white rounded-[20px] font-nunito">
         <motion.div
           className="text-xl sm:text-base font-bold text-white"

@@ -11,8 +11,8 @@ import {
 const quickLinks = [
    { id: 1, title: "Home", link: "/" },
     { id: 2, title: "About", link: "/about" },
-    { id: 3, title: "Services", link: "/services" },
-    { id: 4, title: "Team", link: "/team" },
+    
+    { id: 3, title: "Team", link: "/team" },
 ];
 
 
@@ -40,12 +40,12 @@ const contacts = [
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-r from-[#1b374b] to-slate-600 text-white py-12">
+    <div  className="bg-gradient-to-r from-[#1b374b] to-slate-600 text-white py-12">
       <div className="px-8 mx-auto flex flex-wrap w-full flex-col">
         <div className="grid grid-cols-4 sm:flex sm:flex-col sm:gap-4 md:grid-cols-4 gap-8">
           <div>
             <h2 className="text-xl sm:text-lg font-bold mb-4 font-nunito">
-            A.A.J LAG MULTIPURPOSE INVESTMENTS GROUP
+            Adore Arcade Judicature Lag Multipurpose Investment Group
 
             </h2>
             <p className="mb-4 text-lg sm:text-sm text-gray-400 font-nunito">
@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-4 flex justify-between text-base sm:text-sm text-gray-400 font-nunito">
           <p>
-            &copy; {new Date().getFullYear()} A.A.J LAG MULTIPURPOSE INVESTMENTS GROUP . All
+            &copy; {new Date().getFullYear()}  A.A.J Lag Multipurpose Investment Group . All
             rights reserved.
           </p>
           <div className="flex space-x-4 text-base sm:text-sm">

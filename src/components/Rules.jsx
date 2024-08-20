@@ -52,10 +52,10 @@ const RulesAndRegulations = () => {
   };
 
   return (
-    <div className="p-6 text-gray-800 bg-white py-20">
-      <div className="max-w-4xl mx-auto bg-white p-4">
-        <h1 className="text-2xl font-bold mb-4 font-nunito text-center" >RULES AND REGULATIONS</h1>
-        <div className="space-y-4">
+    <div className="text-gray-800 bg-white py-10">
+      <div className="max-w-4xl mx-auto bg-white">
+        <h1 className="text-2xl sm:leading-tight font-bold pb-10 font-nunito text-center" >RULES AND REGULATIONS</h1>
+        <div className="space-y-4 px-4">
           {rules.map((rule, index) => (
             <div key={rule.id} className="border-b pb-2 bg-sky-100 p-4 rounded-lg">
               <button
