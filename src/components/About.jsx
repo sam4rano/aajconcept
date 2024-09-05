@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:pl-16 p-4">
           <h2 className="text-3xl md:text-2xl font-bold text-gray-800 mb-6 sm:text-2xl sm:text-center">
-            Adore Arcade Judicature Lag Multipurpose Nigeria Limited
+            Mission
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-6 sm:text-center">
             Adore Arcade Judicature Lag Multipurpose Nigeria Limited is a
@@ -22,13 +22,17 @@ const About = () => {
             drive growth and innovation in estate management, real estate,
             general contracts, and merchandise trading, among other fields.
           </p>
-
-          <p className="text-gray-700 text-lg leading-relaxed mb-6 sm:text-center">
-            We are committed to delivering excellence and fostering growth
-            across all our business ventures. As a private company limited by
-            shares, we prioritize the satisfaction and success of our clients
-            and stakeholders.
-          </p>
+          <div>
+            <h2 className="text-3xl md:text-2xl font-bold text-gray-800 mb-6 sm:text-2xl sm:text-center">
+              Vision
+            </h2>
+            <p className="text-gray-700 text-lg leading-relaxed mb-6 sm:text-center">
+              We are committed to delivering excellence and fostering growth
+              across all our business ventures. As a private company limited by
+              shares, we prioritize the satisfaction and success of our clients
+              and stakeholders.
+            </p>
+          </div>
           <p className="text-orange-500 sm:text-center font-bold font-nunito py-5 text-xl">
             FULLY REGISTERED UNDER CAC: 7146308
           </p>

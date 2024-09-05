@@ -10,7 +10,6 @@ const AboutLayout = () => {
 	<div>
 		<Navbar />
 		<Outlet />
-		
 		<ContactUs />
 		<Footer />
 		<BackToTopButton />
